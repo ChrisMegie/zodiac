@@ -72,6 +72,7 @@ app.use('/', auth);
 app.use('/', clothing);
 app.use('/', poster);
 
+
 // Uncomment this line for production
 let client = path.join(__dirname + '../public/index.html')
 console.log('client',client)
