@@ -64,13 +64,13 @@ app.use(logger('dev'));
 const index = require('./routes/index');
 const auth = require('./routes/auth');
 const clothing = require('./routes/clothing');
-const poster = require('./routes/poster');
+
 
 app.use('/api', require('./routes/imageRoute'));
 app.use('/', index);
 app.use('/', auth);
 app.use('/', clothing);
-app.use('/', poster);
+
 
 
 // Uncomment this line for production

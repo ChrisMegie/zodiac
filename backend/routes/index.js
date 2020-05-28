@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const Collab = require('../models/Collab')
+const Poster = require ('../models/Poster')
 
 router.get('/', (req, res, next) => {
   res.status(200).json({ msg: 'Working' });
@@ -56,7 +57,15 @@ router.post('/unshift',isAuth,(req, res, next) => {
     res.json({collabs})
   })
   
-
+  
+  router.get('/getPoster', (req, res) => {
+      console.log("awesome")
+      Poster.find().then(data => {
+          res.json(data)
+      })
+  
+      
+  });
 })
 function isAuth(req, res, next) {
   req.isAuthenticated() ? next() : res.status(401).json({ msg: 'Log in first' });
