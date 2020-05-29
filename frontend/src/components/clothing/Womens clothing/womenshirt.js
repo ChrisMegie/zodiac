@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import actions from '../../../services/index';
 
 
-class Mens extends Component {
+class womenshirt extends Component {
     async componentDidMount() {
    
         //actions.test()
@@ -17,30 +17,31 @@ class Mens extends Component {
         return (
          <div className="background2">
          <video autoPlay muted loop id="videobg">
-          <source src="./images/streets.mp4" type="video/mp4"/>
+          <source src="https://res.cloudinary.com/dlyogvfeu/video/upload/v1590758854/streets_snnmtf.mp4" type="video/mp4"/>
       </video>
       <div class="card">
-        <img src='./images/MensTee.jpg' alt="Tee" className="img"/>
-        <h1>graphic t-shirts</h1>
-        <p>Mens clothing</p>
-        <p><button className="button2">Browse</button></p>
-        </div>
-
-        
+                
         <div class="card">
-        <img src='./images/MJacket.jpg' alt="Jacket" className="img"/>
-        <h1>jackets</h1>
-        <p>Womens clothing</p>
+        <img src='./images/angella.jpg' alt="Womens" className="img"/>
+        <h1>Revo shirt</h1>
+        <p class="price">$19.99</p>
+        <p></p>
         <p><button className="button2">Browse</button></p>
         </div>
-        
 
-        
+        <div class="card">
+        <img src='./images/chandra.jpg' alt="Womens" className="img"/>
+        <h1>Grapic Black</h1>
+        <p class="price">$19.99</p>
+        <p></p>
+        <p><button className="button2">Browse</button></p>
+        </div>
+     
         
       </div>
-      
+      </div>
     );
   }
 }
 
-export default Mens;
+export default womenshirt;

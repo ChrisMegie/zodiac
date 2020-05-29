@@ -19,6 +19,9 @@ class Apparel extends Component {
   render() {
     return (
       <div className="background2">
+      <video autoPlay muted loop id="videobg">
+          <source src="https://res.cloudinary.com/dlyogvfeu/video/upload/v1590758854/streets_snnmtf.mp4" type="video/mp4"/>
+      </video>
       <div class="card">
         <img src='./images/Mens.jpg' alt="Mens" className="img"/>
         <h1>Mens clothing</h1>
