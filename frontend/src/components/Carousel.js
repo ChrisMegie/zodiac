@@ -18,7 +18,7 @@ function ControlledCarousel() {
           />
           <Carousel.Caption>
             <h3>Featured collabs</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <p>Sign up to Print your designs </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -30,7 +30,7 @@ function ControlledCarousel() {
   
           <Carousel.Caption>
             <h3>Mission statement</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>We started this company not to be another trendy streetwear site but one promotes artists and their works through clothing and social media presence</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -43,7 +43,7 @@ function ControlledCarousel() {
           <Carousel.Caption>
             <h3>Contact us</h3>
             <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              Email us at zodiacculture@live.com to reach us
             </p>
           </Carousel.Caption>
         </Carousel.Item>

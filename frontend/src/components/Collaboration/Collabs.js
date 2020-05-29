@@ -62,7 +62,7 @@ class Collabs extends Component {
           <h1>{eachcollab.Artist}</h1>
           <p> </p>
           <p>
-            <Link to="/Works">
+            <Link to={"/Works/" + eachcollab._id}>
               <button className="button2">Browse</button>
             </Link>
             {this.props.id===eachcollab.userId && eachcollab.Live!==true?
@@ -95,6 +95,9 @@ class Collabs extends Component {
   render() {
     return (
       <div className="background2">
+      <video autoPlay muted loop id="videobg">
+          <source src="https://res.cloudinary.com/dlyogvfeu/video/upload/v1590758610/pex_np7job.mp4" type="video/mp4"/>
+      </video>
         <Link to="/newCollab">
             <button className="button2">newCollab</button>
             </Link>

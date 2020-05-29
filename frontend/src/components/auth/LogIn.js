@@ -21,7 +21,9 @@ class LogIn extends Component {
             <Fragment>
             <div className="background2">
 
-            
+            <video autoPlay muted loop id="videobg2">
+          <source src="https://res.cloudinary.com/dlyogvfeu/video/upload/v1590758653/logs_dmuqxb.mp4" type="video/mp4"/>
+      </video>
             <div class="card">
                 <h2>Log In</h2>
                 <form onSubmit={this.handleSubmit}>

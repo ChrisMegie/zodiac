@@ -18,13 +18,16 @@ class Prints extends Component {
   render() {
     return (
       
-      <div className="background2">>
+      <div className="background3">
+      
+      
       <div class="card">
         <img src= './images/Frame.jpg' alt="Framed poster" className="img"/>
         <h1>Framed Poster</h1>
         <p>Framed Poster</p>
         <p><button className="button2">Browse</button></p>
         </div>
+        
 
         
         <div class="card">

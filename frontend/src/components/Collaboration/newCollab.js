@@ -39,6 +39,9 @@ class NewCollab extends Component {
         console.log('redner newcollab')
         return (
             <div className="background2">
+            <video autoPlay muted loop id="videobg">
+          <source src="https://res.cloudinary.com/dlyogvfeu/video/upload/v1590758610/pex_np7job.mp4" type="video/mp4"/>
+      </video>
             
             <div class="card3">
             <TwitterShareButton title="sada" url={`twitter.com/${this.state.Twitter}/`}>hello</TwitterShareButton>
